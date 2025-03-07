@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Form</title>
+</head>
+<body>
+<h1>Survey</h1>
+<form action="survey.php" method="POST">
+<label>Gender:</label><br>
+<input type="radio" id="male" name="gender" value="Male" required>
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="Female" required>
+<label for="female">Female</label><br><br>
+<label for="age">Age Group:</label>
+<select id="age" name="age" required>
+<option value="18-25">18-25</option>
+<option value="26-35">26-35</option>
+<option value="36-45">36-45</option>
+</select><br><br>
+<button type="submit">Submit Survey</button>
+</form>
+</body>
+</html>
